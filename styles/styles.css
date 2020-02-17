@@ -1,0 +1,41 @@
+* {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     margin: 0;
+     font-size: 16px;
+}
+
+body {
+     display: flex;
+     font-family: 'Noto Serif SC', serif;
+     background: #c5ccc7;
+     letter-spacing: 0.12rem;
+}
+
+.container {
+     margin: 0 auto;
+     width: 95%;
+}
+
+#header {
+     display: flex;
+     height: 100vh;
+     text-align: center;
+     align-content: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+h1 {
+     font-size: 3rem;
+     font-weight: bold;
+     margin-bottom: 0.5rem;
+     align-items: flex-start;
+}
+
+h2 {
+     font-size: 0.8rem;
+     font-style: italic;
+     font-weight: 300;
+     align-items: flex-end;
+}
