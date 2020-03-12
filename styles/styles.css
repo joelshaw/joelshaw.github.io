@@ -7,9 +7,11 @@
 
 body {
      display: flex;
-     font-family: 'Noto Serif SC', serif;
-     background: #c5ccc7;
+     font-family: 'Bellota Text', cursive;
+     background: #5d5d5d;
+     color: #ffffff;
      letter-spacing: 0.12rem;
+     text-transform: uppercase;
 }
 
 .container {
@@ -30,12 +32,14 @@ h1 {
      font-size: 3rem;
      font-weight: bold;
      margin-bottom: 0.5rem;
+     letter-spacing: 0.3em;
      align-items: flex-start;
 }
 
 h2 {
-     font-size: 0.8rem;
+     font-size: 0.65rem;
      font-style: italic;
      font-weight: 300;
      align-items: flex-end;
+     letter-spacing: 0.65em;
 }
